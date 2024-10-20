@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  :root {
+    --light-gray: #dfdfe2;
+    --dark-blue: #0e0e23;
+  }
+  
+  body {
+    background-color: var(--dark-blue);
+    color: var(--light-gray);
+  }
+  
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px 10px;
+  }
+
+  h1 {
+    font-size: 40px;
+    margin: 40px 0 25px 0;
+    text-align: center;
+  }
+  
+  #change-due {
+    text-align: center;
+    font-size: 16px;
+  }
+  
+  .user-inputs {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+  }
+  
+  label {
+    font-size: 20px;
+  }
+  
+  .user-input {
+    height: 30px;
+    padding: 10px;
+    margin: 10px;
+    font-size: 15px;
+  }
+  
+  #price {
+    font-size: 120px;
+    text-align: center;
+  }
+  
+  .check-btn {
+    cursor: pointer;
+    width: 120px;
+    height: 30px;
+    margin: 20px;
+    color: #0e0e23;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: gold;
+    border: none;
+  }
+  
+  .btns-container {
+    width: 15%;
+  }
+
+  #footer {
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  #footer p {
+    margin: 0;
+    color: #fff;
+  }
